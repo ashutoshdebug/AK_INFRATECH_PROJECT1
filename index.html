@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style></style>
+  <body>
+    <nav>
+        <header>
+            <h2>Simple Calculator</h2>
+        </header>
+    </nav>
+    <div id="center-calc">
+      <div class="calc-panel">
+        <div class="pre-input-field"><div class="input-field" id="display">0</div></div>
+        <div class="btn-panel">
+          <div class="first-row">
+            <div class="btn-class">
+              <div class="each-button color-diff">AC</div>
+              <div class="each-button color-diff">%</div>
+              <div class="each-button color-diff" id="backspace">⌫</div>
+              <div class="each-button color-diff">&#247;</div>
+            </div>
+          </div>
+          <div class="second-row">
+            <div class="btn-class">
+              <div class="each-button">7</div>
+              <div class="each-button">8</div>
+              <div class="each-button">9</div>
+              <div class="each-button color-diff">&#215;</div>
+            </div>
+          </div>
+          <div class="third-row">
+            <div class="btn-class">
+              <div class="each-button">4</div>
+              <div class="each-button">5</div>
+              <div class="each-button">6</div>
+              <div class="each-button color-diff">-</div>
+            </div>
+          </div>
+          <div class="fourth-row">
+            <div class="btn-class">
+              <div class="each-button">1</div>
+              <div class="each-button">2</div>
+              <div class="each-button">3</div>
+              <div class="each-button color-diff">+</div>
+            </div>
+          </div>
+          <div class="fifth-row">
+            <div class="btn-class">
+              <div class="each-button">00</div>
+              <div class="each-button">0</div>
+              <div class="each-button">.</div>
+              <div class="each-button equal">=</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="name">Made by&nbsp;<a href="https://github.com/ashutoshdebug" target="_blank">Ashutosh Kumar Tiwari</a></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@11.11.1/lib/browser/math.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
