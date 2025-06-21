@@ -27,7 +27,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 0; /* Top & bottom breathing space */
+  padding: 30px 0;
   min-height: 100vh;
   width: 100%;
   background-color: rgb(255, 255, 255);
@@ -39,7 +39,6 @@ header {
   max-width: 400px;
   min-width: 280px;
   height: auto;
-  /* padding-bottom: 10px */
   border-radius: 20px;
   box-shadow: 1px 1px 35px rgba(255, 255, 255, 0.103);
 }
@@ -92,7 +91,7 @@ header {
 
 .each-button {
   flex: 1;
-  aspect-ratio: 1; /* Maintain circular shape */
+  aspect-ratio: 1;
   max-width: 90px;
   display: flex;
   justify-content: center;
@@ -103,6 +102,7 @@ header {
   font-weight: bold;
   transition: 0.2s;
   color: white;
+  box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.233);
 }
 
 .each-button:hover {
